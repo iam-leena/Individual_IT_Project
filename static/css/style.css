@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --first:#669bbc;
+    --second : #003049;
+    --third :#8D94BA;
+    --fourth : #97B2C7;
+    --fifth:#A0CFD3;
+}
+header {
+    padding: 40px;
+    height: 5vh;
+    text-align: center;
+    background: var(--first);
+    color: white;
+    font-size: 20px;
+}
+nav{
+    overflow: hidden;
+    background-color: var(--second);
+}
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav a:hover {
+    background-color: var(--first);
+    color: white;
+}
+
+main .container .main-img{
+    width: 100%;
+   height: 60vh;
+}
+#intro{
+    margin: 10px;
+}
+#intro .main{
+    margin-top: 1vh;
+    padding: 1vw;
+
+}
+#intro  .desc{
+    margin-left: 5vw;
+    display: flex;
+}
+
+main .desc-img{
+    width: 60%;
+    margin-right: 0;
+}
+.th-row{
+    /* display: flex; */
+}
+.th-row .th-column {
+    width: 200px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    margin: 10px ;
+}
+.th-column::after{
+    clear: both;
+}
+button{
+    padding: 5px;
+    margin: 10px 0;
+    width: 100%;
+    background-color: var(--second);
+    color: white;
+}
+button:hover{
+    background-color: var(--first);
+    color: #003049;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+
+    text-align: center;
+    padding: 10px 0px;
+    background-color:var(--second) ;
+    color: white;
+    float: left;
+    height: 5vh;
+    width: 100%;
+}
